@@ -7,7 +7,7 @@ import (
 	"sync"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/micro/go-micro/codec"
+	"github.com/elthariel/go-micro/codec"
 )
 
 type mercuryCodec struct {

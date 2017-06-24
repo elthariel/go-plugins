@@ -42,7 +42,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/transport"
 
-	"github.com/micro/go-micro/server"
+	"github.com/elthariel/go-micro/server"
 )
 
 // rpcStream implements a server side Stream.

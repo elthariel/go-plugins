@@ -3,9 +3,9 @@ package label
 import (
 	"sync"
 
-	"github.com/micro/go-micro/cmd"
-	"github.com/micro/go-micro/registry"
-	"github.com/micro/go-micro/selector"
+	"github.com/elthariel/go-micro/cmd"
+	"github.com/elthariel/go-micro/registry"
+	"github.com/elthariel/go-micro/selector"
 
 	"golang.org/x/net/context"
 )

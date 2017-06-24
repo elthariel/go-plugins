@@ -1,8 +1,8 @@
 package grpc
 
 import (
-	"github.com/micro/go-micro/server"
-	"github.com/micro/go-micro/server/debug"
+	"github.com/elthariel/go-micro/server"
+	"github.com/elthariel/go-micro/server/debug"
 )
 
 // We use this to wrap any debug handlers so we preserve the signature Debug.{Method}

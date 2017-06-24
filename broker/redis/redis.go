@@ -9,10 +9,10 @@ import (
 	"golang.org/x/net/context"
 
 	"github.com/garyburd/redigo/redis"
-	"github.com/micro/go-micro/broker"
-	"github.com/micro/go-micro/broker/codec"
-	"github.com/micro/go-micro/broker/codec/json"
-	"github.com/micro/go-micro/cmd"
+	"github.com/elthariel/go-micro/broker"
+	"github.com/elthariel/go-micro/broker/codec"
+	"github.com/elthariel/go-micro/broker/codec/json"
+	"github.com/elthariel/go-micro/cmd"
 )
 
 func init() {

@@ -4,7 +4,7 @@ import (
 	"io"
 
 	"github.com/micro/go-bson"
-	"github.com/micro/go-micro/codec"
+	"github.com/elthariel/go-micro/codec"
 )
 
 const (

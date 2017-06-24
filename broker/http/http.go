@@ -2,13 +2,13 @@
 package http
 
 import (
-	"github.com/micro/go-micro/broker"
-	"github.com/micro/go-micro/broker/http"
+	"github.com/elthariel/go-micro/broker"
+	"github.com/elthariel/go-micro/broker/http"
 )
 
 /*
 	HTTP Broker is the default broker in go-micro to reduce the number of dependencies.
-	Find the implementation at https://godoc.org/github.com/micro/go-micro/broker/http.
+	Find the implementation at https://godoc.org/github.com/elthariel/go-micro/broker/http.
 	We add a link here for completeness
 */
 

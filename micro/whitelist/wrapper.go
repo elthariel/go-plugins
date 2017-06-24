@@ -1,8 +1,8 @@
 package whitelist
 
 import (
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/errors"
+	"github.com/elthariel/go-micro/client"
+	"github.com/elthariel/go-micro/errors"
 
 	"golang.org/x/net/context"
 )

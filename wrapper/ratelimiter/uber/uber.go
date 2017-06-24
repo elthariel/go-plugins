@@ -1,8 +1,8 @@
 package ratelimit
 
 import (
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/server"
+	"github.com/elthariel/go-micro/client"
+	"github.com/elthariel/go-micro/server"
 	"go.uber.org/ratelimit"
 
 	"golang.org/x/net/context"

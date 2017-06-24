@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/micro/go-micro/registry"
+	"github.com/elthariel/go-micro/registry"
 )
 
 type node struct {

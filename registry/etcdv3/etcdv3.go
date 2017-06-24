@@ -13,8 +13,8 @@ import (
 	"golang.org/x/net/context"
 
 	"github.com/coreos/etcd/clientv3"
-	"github.com/micro/go-micro/cmd"
-	"github.com/micro/go-micro/registry"
+	"github.com/elthariel/go-micro/cmd"
+	"github.com/elthariel/go-micro/registry"
 
 	hash "github.com/mitchellh/hashstructure"
 )

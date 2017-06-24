@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 	example "github.com/micro/examples/server/proto/example"
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/cmd"
-	"github.com/micro/go-micro/metadata"
+	"github.com/elthariel/go-micro/client"
+	"github.com/elthariel/go-micro/cmd"
+	"github.com/elthariel/go-micro/metadata"
 	"github.com/micro/go-os/trace"
 	"github.com/micro/go-plugins/trace/zipkin"
 	"golang.org/x/net/context"

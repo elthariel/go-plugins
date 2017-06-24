@@ -1,7 +1,7 @@
 package memory
 
 import (
-	"github.com/micro/go-micro/registry"
+	"github.com/elthariel/go-micro/registry"
 	"golang.org/x/net/context"
 )
 

@@ -1,12 +1,12 @@
 package grpc
 
 import (
-	"github.com/micro/go-micro/broker"
-	"github.com/micro/go-micro/codec"
-	"github.com/micro/go-micro/registry"
-	"github.com/micro/go-micro/server"
-	"github.com/micro/go-micro/server/debug"
-	"github.com/micro/go-micro/transport"
+	"github.com/elthariel/go-micro/broker"
+	"github.com/elthariel/go-micro/codec"
+	"github.com/elthariel/go-micro/registry"
+	"github.com/elthariel/go-micro/server"
+	"github.com/elthariel/go-micro/server/debug"
+	"github.com/elthariel/go-micro/transport"
 )
 
 func newOptions(opt ...server.Option) server.Options {

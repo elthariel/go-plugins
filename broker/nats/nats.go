@@ -4,9 +4,9 @@ package nats
 import (
 	"strings"
 
-	"github.com/micro/go-micro/broker"
-	"github.com/micro/go-micro/broker/codec/json"
-	"github.com/micro/go-micro/cmd"
+	"github.com/elthariel/go-micro/broker"
+	"github.com/elthariel/go-micro/broker/codec/json"
+	"github.com/elthariel/go-micro/cmd"
 	"github.com/nats-io/nats"
 )
 

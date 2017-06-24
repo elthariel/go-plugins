@@ -3,7 +3,7 @@ package eureka
 import (
 	"net/http"
 
-	"github.com/micro/go-micro/registry"
+	"github.com/elthariel/go-micro/registry"
 	"golang.org/x/net/context"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/clientcredentials"

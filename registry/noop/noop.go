@@ -2,7 +2,7 @@
 package noop
 
 import (
-	"github.com/micro/go-micro/registry"
+	"github.com/elthariel/go-micro/registry"
 )
 
 type noopRegistry struct{}

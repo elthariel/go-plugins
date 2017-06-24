@@ -1,9 +1,9 @@
 package http
 
 import (
-	"github.com/micro/go-micro/codec"
-	"github.com/micro/go-micro/registry"
-	"github.com/micro/go-micro/server"
+	"github.com/elthariel/go-micro/codec"
+	"github.com/elthariel/go-micro/registry"
+	"github.com/elthariel/go-micro/server"
 
 	"golang.org/x/net/context"
 )
