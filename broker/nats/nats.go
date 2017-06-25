@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/elthariel/go-micro/broker"
-	"github.com/elthariel/go-micro/broker/codec/json"
+	"github.com/elthariel/go-micro/broker/codec/msgp"
 	"github.com/elthariel/go-micro/cmd"
 	"github.com/nats-io/nats"
 )
@@ -168,7 +168,7 @@ func (n *nbroker) String() string {
 func NewBroker(opts ...broker.Option) broker.Broker {
 	options := broker.Options{
 		// Default codec
-		Codec: json.NewCodec(),
+		Codec: msgp.NewCodec(),
 	}
 
 	for _, o := range opts {
